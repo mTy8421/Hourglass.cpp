@@ -15,6 +15,16 @@ int main(){
         cout << endl;
     }
     
-    
+
+    for (int i = 4; i >= 1; i--)
+    {
+        for (int k = 1; k <= i - 1; k++){
+            cout << " ";
+        }
+        for(int j = i; j <= 5; j++){
+            cout << "* ";
+        }
+        cout << endl;
+    }
     return EXIT_SUCCESS;
 }
